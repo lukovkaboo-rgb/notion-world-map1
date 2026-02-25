@@ -1,42 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Interactive World Map</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+{\rtf1\ansi\ansicpg1251\cocoartf2868
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
 
-        html, body {
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-        }
-
-        #map {
-            width: 100%;
-            height: 100%;
-            position: absolute;
-            top: 0;
-            left: 0;
-        }
-
-        /* Ensure proper rendering in iframes */
-        iframe body {
-            overflow: hidden;
-        }
-    </style>
-</head>
-<body>
-    <div id="map"></div>
-
-    <script src="mapdata.js"></script>
-    <script src="worldmap.js"></script>
-</body>
-</html>
+\f0\fs24 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 <!DOCTYPE html>\
+<html lang="en">\
+<head>\
+    <meta charset="UTF-8">\
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">\
+    <title>Interactive World Map</title>\
+    <style>\
+        /* Reset margins and force full viewport height/width */\
+        html, body \{\
+            width: 100%;\
+            height: 100%;\
+            margin: 0;\
+            padding: 0;\
+            overflow: hidden; /* Prevent scrollbars inside the iframe */\
+            background-color: transparent; \
+        \}\
+        \
+        /* Ensure the map container takes up the entire screen */\
+        #map \{\
+            width: 100%;\
+            height: 100%;\
+            display: block;\
+        \}\
+    </style>\
+    \
+    <script src="mapdata.js"></script>\
+    <script src="worldmap.js"></script>\
+</head>\
+<body>\
+    <div id="map"></div>\
+</body>\
+</html>}
